@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: serif,sans-serif;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background: url(https://img.freepik.com/premium-photo/beautiful-sky-clouds-autumn-sunset-background_692702-7800.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    
+
+}
+.main-container{
+    width: 20rem;
+    border-radius: 10px;
+    position: relative;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.53);
+    
+}
+.searchBox{
+    background-color: rgba(127, 255, 212, 0);
+    height: 2rem;
+    width: 85%;
+    margin: 10px auto 0;
+    border-radius: 3px;
+    position: relative;
+}
+.searchBox input{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: transparent;
+    border-radius: 20px;
+    padding-left: 10px;
+    color: #fff;
+    border: 2px solid ;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.669);
+}
+.searchBox input:focus{
+    border-color: #80bdff;
+    outline: 0;
+  
+}
+.searchBox input::placeholder{
+    color: #fff;
+}
+.searchBox button{
+    position: absolute;
+    right: 5px;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 40px;
+    font-size: 1rem;
+    color: #fff;
+
+}
+.searchBox button:hover{
+    font-size: 1.1rem;
+    transition: 0.3s;
+}
+.content{
+    background-color:blue ;
+    height: 80%;
+    margin: 20px;
+    background: transparent;
+    padding: 15px;
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+    border: 1px solid ;
+    border-radius: .3rem;
+}
+.content img{
+    height: 5rem;
+}
+
+.content{
+    font-size: 1.7rem;
+}
+.content p>sup{
+    font-size:1.3rem; 
+}
+.content p>span{
+    font-size:2.5rem; 
+    font-weight: bold;
+    
+}
